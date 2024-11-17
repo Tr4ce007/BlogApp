@@ -1,5 +1,8 @@
 import mongoose from 'mongoose';
 
+
+// Blog Schema for Blog Posts
+
 const blogSchema = mongoose.Schema({
     title: String,
     content: String,

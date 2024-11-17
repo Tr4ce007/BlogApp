@@ -75,10 +75,10 @@ The following API endpoints are available for interacting with the application:
 - POST `/user/signin` - User login endpoint.
 - POST `/user/signup` - User registration endpoint.
 ### 2. **Blog Posts**
+- GET `/blogs` - Get all blog posts.
+- GET `/blogs/:id` - Get a blog post by ID.
 - POST `/blogs` - Create a new blog post.
 - PATCH `/blogs/:id` - Update an existing blog post.
-- DELETE `/blog/delete/:id` - Delete a blog post.
-- PATCH `/blog/like/:id` - Like a blog post.
-- GET `/blogs/:id` - Get a blog post by ID.
-- GET `/blogs` - Get all blog posts.
+- DELETE `/blogs/:id` - Delete a blog post.
+- PATCH `/blogs/:id/likeBlog` - Like a blog post.
 - GET `/blogs/search` - Search for blog posts.

@@ -8,7 +8,9 @@ import Auth from './components/Auth/Auth';
 import PostDetails from './components/PostDetails/PostDetails';
 
 const App = () => {
+  // Get user data from localStorage if it exists
   const user = JSON.parse(localStorage.getItem('profile'));
+  // Using BrowserRouter to handle routing for different pages
   return (
     <BrowserRouter>
       <Container maxWidth="xl">

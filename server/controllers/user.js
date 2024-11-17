@@ -5,6 +5,8 @@ import UserModal from "../models/user.js";
 
 const secret = 'unified';
 
+// Auth Controller To SignUp and Sign In
+
 export const signin = async (req, res) => {
   const { email, password } = req.body;
 

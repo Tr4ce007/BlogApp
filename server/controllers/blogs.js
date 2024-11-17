@@ -3,6 +3,8 @@ import mongoose from 'mongoose';
 
 import Blog from '../models/blog.js';
 
+// Blog Controller for Operations on Blogs
+
 const router = express.Router();
 
 export const getBlogs = async (req, res) => {
